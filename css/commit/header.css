@@ -46,10 +46,14 @@
     position: fixed;
     top: 0;
     transition: top 0.2s ease-in-out;
-    width: 100%;
+    width: 764px; /* 고정 너비 */
     display: flex;
     z-index: 1000;
     box-shadow: 0px 0px 6px #9c9c9c;
+
+    /* 가운데 정렬 */
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .header_content {
@@ -72,6 +76,14 @@
     height: 40px;
     margin: auto 0;
 }
+
+.header_company,
+.header_noonai,
+.header_itsolution,
+.header_community {
+    display: none !important;
+}
+
 
 .header_company {
     width: 84px;

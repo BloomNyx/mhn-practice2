@@ -55,10 +55,16 @@
 }
 
 body {
-    padding-top: 88px;
-    margin: 0 0;
-    overflow: auto;
+  width: 746px;
+  margin: 0 auto;
 }
+
+@media (max-width: 647px) {
+  body {
+    width: 100%;
+  }
+}
+
 
 img {
     image-rendering: -webkit-optimize-contrast;
